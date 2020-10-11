@@ -2,13 +2,13 @@ package War;
 
 public class Card {
 
-    public enum Rank
+    protected enum Rank
     {
         TWO, THREE, FOUR, FIVE, SIX,
         SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING, ACE
     }
 
-    public enum Suit
+    protected enum Suit
     {
         CLUBS, DIAMONDS, HEARTS, SPADES
     }
@@ -16,7 +16,7 @@ public class Card {
     private final Suit suit;
     private final Rank rank;
 
-    public Card(Suit suit, Rank rank){
+    protected Card(Suit suit, Rank rank){
         this.rank = rank;
         this.suit = suit;
     }

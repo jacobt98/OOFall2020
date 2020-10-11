@@ -1,7 +1,5 @@
 package War;
 
-import Deck;
-
 public class Player {
 
     private Deck deck;
@@ -14,7 +12,4 @@ public class Player {
      * Check if the player has any remaining cards in their deck
      * @return
      */
-    public boolean hasCards(){
-        return this.deck.isEmpty();
-    }
 }
