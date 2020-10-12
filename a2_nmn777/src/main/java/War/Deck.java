@@ -35,8 +35,8 @@ public class Deck {
      * @param deck
      * @return shuffled deck
      */
-    public Deck shuffle(Deck deck){
-    }
+//    public Deck shuffle(Deck deck){
+//    }
 
     /**
      * Add a card to the end of the deck
@@ -45,7 +45,7 @@ public class Deck {
      */
     protected Deck append(Card c) {
         if (c != null) {
-            this.add(c);
+            this.append(c);
         }
         return this;
     }
