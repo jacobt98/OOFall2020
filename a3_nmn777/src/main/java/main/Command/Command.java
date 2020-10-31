@@ -1,7 +1,7 @@
 package main.Command;
 
-public abstract class Command {
+public interface Command {
 
-    public abstract void execute(Shape shape);
+    void execute(Shape shape);
 
 }
