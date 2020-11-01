@@ -7,6 +7,10 @@ package main.Command;
  * Calling SELECT on a shape that does not exist in the list will produce the following error message
  * "ERROR: invalid shape for SELECT"
  */
-public class Select {
+public class SelectCommand implements Command {
 
+    @Override
+    public void execute(Shape shape) {
+
+    }
 }

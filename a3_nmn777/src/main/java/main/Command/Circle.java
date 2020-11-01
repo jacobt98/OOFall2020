@@ -9,6 +9,9 @@ public class Circle implements Shape{
     private int xpos;
     private int ypos;
 
+    public Circle(double r){
+        this.radius = r;
+    }
 
     @Override
     public void color(Color scolor) {
@@ -23,7 +26,9 @@ public class Circle implements Shape{
 
     @Override
     public void draw() {
-        System.out.println("CIRCLE, Color:" + this.myColor);
+        System.out.println("CIRCLE, Color:" + this.myColor
+                + ", Origin: (" + this.xpos + "," + this.ypos + "), "
+                + "Radius: " + this.radius);
     }
 
     @Override

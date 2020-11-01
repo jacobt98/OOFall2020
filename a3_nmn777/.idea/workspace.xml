@@ -23,21 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18ba8eb2-47af-46f6-923f-8097ba52e0b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/Command/CreateCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Command/Create.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Command/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Command/DrawCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Command/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Command/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Command/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Command/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Command/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Command/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Command/Select.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Command/SelectCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/TableController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/drawingpane.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/drawingpane.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/Command/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Command/Circle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/TableController.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,10 +191,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="424" y="202" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604113132120" />
-    <state x="773" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1604127363144">
+    <state x="773" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1604206214308">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="773" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1604127363144" />
+    <state x="773" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1604206214308" />
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1604206020495">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604206020495" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center" timestamp="1604206020494">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604206020494" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left" timestamp="1604206020493">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604206020493" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right" timestamp="1604206020494">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604206020494" />
     <state x="498" y="202" key="Maven.ArtifactSearchDialog" timestamp="1604125530484">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
