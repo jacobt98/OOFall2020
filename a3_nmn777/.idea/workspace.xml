@@ -24,12 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="18ba8eb2-47af-46f6-923f-8097ba52e0b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Command/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Command/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Command/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Command/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Command/Select.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Command/SelectCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/Command/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Command/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Command/CommandInvoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Command/CommandInvoker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +56,6 @@
         <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
   </component>
   <component name="ProjectId" id="1jcowIVDCsIabrNYM7nbMU9mEBQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -191,26 +182,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="424" y="202" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604113132120" />
-    <state x="773" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1604206214308">
+    <state x="773" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1604207806025">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="773" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1604206214308" />
-    <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1604206020495">
+    <state x="773" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1604207806025" />
+    <state x="745" y="441" width="430" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604207720947">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604206020495" />
-    <state width="1878" height="305" key="GridCell.Tab.0.center" timestamp="1604206020494">
+    <state x="745" y="441" width="430" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1604207720947" />
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1604207604349">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="305" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604206020494" />
-    <state width="1878" height="305" key="GridCell.Tab.0.left" timestamp="1604206020493">
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604207604349" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center" timestamp="1604207604348">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="305" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604206020493" />
-    <state width="1878" height="305" key="GridCell.Tab.0.right" timestamp="1604206020494">
+    <state width="1878" height="305" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604207604348" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left" timestamp="1604207604348">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="305" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604206020494" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604207604348" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right" timestamp="1604207604348">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604207604348" />
     <state x="498" y="202" key="Maven.ArtifactSearchDialog" timestamp="1604125530484">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
