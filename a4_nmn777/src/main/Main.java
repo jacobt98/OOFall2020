@@ -10,8 +10,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("/teameditorviewmodel.fxml"));
-        primaryStage.setTitle("Hello World");
+        Parent root = FXMLLoader.load(getClass().getResource("/teameditor.fxml"));
+        primaryStage.setTitle("Assignment 4 - Jacob Tague - nmn777");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
     }
